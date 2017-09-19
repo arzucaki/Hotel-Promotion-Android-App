@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/galeryMenuList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:divider="#a3aba0"
+        android:dividerHeight="2dp"
+        android:footerDividersEnabled="true" />
+
+
+</LinearLayout>

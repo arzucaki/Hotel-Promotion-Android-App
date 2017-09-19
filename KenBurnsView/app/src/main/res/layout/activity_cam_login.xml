@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kids_login"
+    tools:context="com.mobile.sherwoodhotels.CamLogin">
+
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtlogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="88dp"
+        android:ems="10"
+        android:hint="Enter E-Mail Adress"
+        android:inputType="textPersonName"
+        android:text="E-Mail" />
+
+    <EditText
+        android:id="@+id/roomNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mail"
+        android:layout_alignStart="@+id/mail"
+        android:layout_below="@+id/mail"
+        android:layout_marginTop="31dp"
+        android:ems="10"
+        android:hint="Enter Room Number"
+        android:inputType="textPersonName"
+        android:text="Room Number" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@color/global_color_green_primary_dark"
+        android:text="Login"
+        android:layout_above="@+id/info"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="98dp" />
+
+    <TextView
+        android:id="@+id/txtlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="34dp"
+        android:text="Please login to watch Kid's Club Cameras Live."
+        android:textAlignment="center"
+        android:textColor="@color/global_color_primary_light"
+        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp" />
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="HotelButtonHeight">100dp</dimen>
+    <dimen name="HotelButtonWidth">178dp</dimen>
+    <dimen name="MenuItemWidth">240dp</dimen>
+    <dimen name="MenuItemHeight">100dp</dimen>
+    <dimen name="HeaderTextSize">20sp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+</resources>

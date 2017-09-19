@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Sherwood Hotels</string>
+    <string name="wellcome">Sherwood Resorts and Hotels</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="processing">İşlem yapılıyor...</string>
+    <string name="no_internet">İnternet bağlantınızı kontrol ediniz.</string>
+    <string name="watchlive">Canlı İzle</string>
+    <string name="language_changed">Dil değiştirildi.</string>
+    <string name="buffering">Video Hazırlanıyor...</string>
+    <string name="cams">Kameralar</string>
+
+    <string-array name="languages">
+        <item>Türkçe</item>
+        <item>Almanca</item>
+        <item>Rusça</item>
+        <item>İngilizce</item>
+    </string-array>
+
+</resources>
